@@ -2124,14 +2124,7 @@ break
 
 case 'woi': case 'fuck': case 'dick': case 'dek': case 'bocil': case 'esempe': case 'cil': case 'cill': case 'p': {
 if (!isPremium) return xgreply(mess.premium)
-m.reply(`Harap yang sopan dalam memanggil orang, minimal mengatakan "Assalamu'alaikum warrahmatullahi Wabarakatuh" atau kalian bisa panggil Namanya. Tidak sopan itu, Jika *anda lebih tua* anda mengerti yang namanya etika.
-
-islam: Assalamualaikum
-kristen: Shalom
-hindu: Swastyastu
-buddha: Sotthi Jitu
-konghucu: Wei De Dong Tian
-Atheis/Gapunya Agama/Orang Gila: ${command}`)
+m.reply(`> *Bot Speed ${latensi.toFixed(4)}*`)
 }
 break
 
