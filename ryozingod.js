@@ -2280,6 +2280,13 @@ ryozingod.removeProfilePicture(ryozingod.user.id)
 xgreply(mess.succes)
 }
 break
+case "left": case "leave": { 
+if (!isDeveloper) return xgreply(mess.owner) 
+ await ryozingod.sendText(m.chat,  '> 𝙱𝙾𝚃 𝙸𝚂 𝙻𝙴𝙰𝚅𝙸𝙽𝙶 𝙽𝙾𝚆. . .'); 
+                 await ryozingod.groupLeave(m.chat); 
+  
+             } 
+	break
 case 'setbiobot':{
 inireact()
 if (!isDeveloper) return xgreply(mess.owner);
