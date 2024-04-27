@@ -2111,7 +2111,7 @@ var contact = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 ryozingod.relayMessage(m.chat, contact.message, { messageId: contact.key.id })
 break
 
-case 'Mose': {
+case 'drex': {
 if (!isPremium) return xgreply(mess.premium)
 ryozingod.sendMessage(m.chat, { text: `𝐃𝐑𝚺𝐗 𝐂𝐑𝐀𝐒𝐇🤯`}, { quoted: ryobug })
 }
@@ -2122,9 +2122,8 @@ ryozingod.sendMessage(m.chat, { text: `waalaikumsalam`}, { quoted: m })
 }
 break
 
-case 'woi': case 'fuck': case 'dick': case 'dek': case 'bocil': case 'esempe': case 'cil': case 'cill': case 'p': {
-if (!isPremium) return xgreply(mess.premium)
-m.reply(`> *Bot Speed ${latensi.toFixed(4)}*`)
+case 'ping': case 'p': {
+m.reply(`*Bot Speed*\n *${latensi.toFixed(4)}*`)
 }
 break
 
