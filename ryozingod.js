@@ -1331,6 +1331,7 @@ case 'runtime': {
 inireact()
 let run = runtime(process.uptime())
 m.reply(`> *Bot has been running for ${run}*`)
+break
 	
 case "menu": case "help": {
 inireact()
