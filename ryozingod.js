@@ -4337,8 +4337,8 @@ if (!isBotAdmins) return xgreply(`Bot is not admin:(`)
           }
           break
 
-		 case "promote" : { 
-                 if (!isPremium) return xgreply(mess.premium)
+	case "promote" : { 
+if (!isPremium) return xgreply(mess.premium)
 if (!isGroup) return xgreply('Only Group')
 if (!isAdmins && !isOwner) return xgreply('Only Admin')
 if (!isBotAdmins) return xgreply(`Bot Bukan Admi:(`) 
@@ -4386,6 +4386,16 @@ xgreply(`*Success Beb✅*`)
 }
 }
 break
+
+case "delete": case "del": { 
+if (!isPremium) return xgreply(mess.premium)
+if (!isGroup) return xgreply('Only Group')if (!isAdmins && !isOwner) return xgreply('> *Only Admin*') 
+if (!m.quoted) throw `> *No message quoted for deletion*`; 
+let { chat, fromMe, id, isBaileys } = m.quoted; 
+if (isBaileys) throw `> *I cannot delete. Quoted message is my message or another bot message.*`; 
+ryozingod.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id: m.quoted.id, participant: m.quoted.sender } }); 
+} 
+break;
 
 case 'beritacnn': {
   inireact();
