@@ -2139,11 +2139,19 @@ break
 case 'shutdown': {
 if (!isDeveloper) return xgreply(mess.owner)
 inireact()
-xgreply(`𝐁𝐚𝐢 𝐁𝐚𝐢 𝐌𝐲 𝐇𝐚𝐧𝐝𝐬𝐨𝐦𝐞 𝐎𝐰𝐧𝐞𝐫🖐`)
+xgreply(`> 𝐁𝐚𝐢 𝐁𝐚𝐢 𝐌𝐲 𝐇𝐚𝐧𝐝𝐬𝐨𝐦𝐞 𝐎𝐰𝐧𝐞𝐫🖐`)
 await sleep(5000)
 process.exit()
 }
 break
+
+case 'restart':  
+if (!isDeveloper) return xgreply(mess.owner)
+inireact()
+xgreply(`> *drex vision md is now restarting*\n> *wait for 20 seconds*`)
+  await sleep(3000)  
+  process.exit()  
+  break
 
 case "totalcase": {
   inireact();
