@@ -1319,6 +1319,13 @@ xgreply(penis)
 break
 
 //Menu
+case 'ping': case 'p': {
+inireact()
+let latensi = speed() - timestamp
+m.reply(`> *Bot Speed*\n *${latensi.toFixed(4)} 𝐌𝐬*`)
+}
+break
+
 case "menu": case "help": {
 inireact()
 let timestamp = speed()
@@ -2119,12 +2126,6 @@ break
 
 case 'assalamualaikum': {
 ryozingod.sendMessage(m.chat, { text: `waalaikumsalam`}, { quoted: m })
-}
-break
-
-case 'ping': case 'p': {
-inireact()
-m.reply(`*Bot Speed*\n ${latensi.toFixed(4)} 𝐌𝐬`)
 }
 break
 
