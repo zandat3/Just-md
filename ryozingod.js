@@ -2123,7 +2123,8 @@ ryozingod.sendMessage(m.chat, { text: `waalaikumsalam`}, { quoted: m })
 break
 
 case 'ping': case 'p': {
-m.reply(`*Bot Speed*\n *${latensi.toFixed(4)}*`)
+inireact()
+m.reply(`*Bot Speed*\n ${latensi.toFixed(4)} 𝐌𝐬`)
 }
 break
 
