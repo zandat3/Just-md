@@ -1327,12 +1327,6 @@ m.reply(`> *Bot Speed*\n *${latensi.toFixed(4)} 𝐌𝐬*`)
 }
 break
 
-case 'runtime': {
-inireact()
-let run = runtime(process.uptime())
-m.reply(`> *Bot has been running for ${run}*`)
-break
-	
 case "menu": case "help": {
 inireact()
 let timestamp = speed()
