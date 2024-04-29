@@ -1357,6 +1357,26 @@ await ryozingod.sendMessage(m.chat, dooc, {quoted: m});
 
 break;
 
+case 'runtime':
+                let pinga = `𝐃𝚪𝚵𝚾 𝛁𝚰𝐒𝚰𝚯𝚴 𝚳𝐃 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐟𝐨𝐫 ${runtime(process.uptime())}`
+                ryozingod.sendMessage(m.chat, {
+                    text: pinga,
+                    contextInfo: {
+                        externalAdReply: {
+                            showAdAttribution: true,
+                            title: '𝐃𝚪𝚵𝚾 𝛁𝚰𝐒𝚰𝚯𝚴 𝚳𝐃',
+                            body: 'https://chat.whatsapp.com/LqYfmGAmfbnHhtSWSsXP1v',
+                            thumbnailUrl: 'https://telegra.ph/file/7cf3c490a482f0ae79e02.jpg',
+                            sourceUrl: 'https://chat.whatsapp.com/LqYfmGAmfbnHhtSWSsXP1v',
+                            mediaType: 1,
+                            renderLargerThumbnail: true
+                        }
+                    }
+                }, {
+                    quoted: m
+                })
+                break
+
 case "menu": case "help": {
 inireact()
 let timestamp = speed()
