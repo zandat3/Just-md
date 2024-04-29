@@ -1323,7 +1323,7 @@ case 'ping': case 'p': {
 inireact()
 let timestamp = speed()
 let latensi = speed() - timestamp
-m.reply(`> *Bot Speed*\n *${latensi.toFixed(4)} 𝐌𝐬*`)
+m.reply(`> *Bot Speed*\n> *${latensi.toFixed(4)} 𝐌𝐬*`)
 }
 break
 
@@ -1346,7 +1346,8 @@ const audiovn = "./drex vision.mp3";
           thumbnailUrl: "https://telegra.ph/file/7cf3c490a482f0ae79e02.jpg",
           sourceUrl: "https://chat.whatsapp.com/LqYfmGAmfbnHhtSWSsXP1v",
           mediaType: 1,
-          renderLargerThumbnail: true
+	  showAdAttribution: true,
+          renderLargerThumbnail: true,
           }}
       };
 
@@ -1925,6 +1926,7 @@ let itsmenu = `
 title: '⟠ 𝐃𝐑𝚺𝐗 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々',
   body: `👤 名前 : ${m.pushName}\n🕑${ucapanWaktu}`, 
   showAdAttribution: true,
+  renderLargerThumbnail: true,
   thumbnail:nulll2,
   mediaType: 4,
   MediaUrl:`${global.yt}`,
