@@ -1327,6 +1327,35 @@ m.reply(`> *Bot Speed*\n *${latensi.toFixed(4)} 𝐌𝐬*`)
 }
 break
 
+case "alive":
+const audiovn = "./drex vision.mp3";
+    const dooc = {
+        audio: {
+          url: audiovn
+        },
+        mimetype: 'audio/mp4',
+        ptt: true,
+        waveform:  [100, 0, 100, 0, 100, 0, 100],
+        fileName: "",
+
+        contextInfo: {
+          mentionedJid: [m.sender],
+          externalAdReply: {
+          title: "𝐃𝚪𝚵𝚾 𝛁𝚰𝐒𝚰𝚯𝚴 𝚳𝐃 𝚰𝐒 𝚮𝚵𝚪𝚵 𝚻𝚯 𝐖𝚯𝚪𝐒𝚵𝚴 𝐔𝚸 𝐘𝚯𝐔𝚪 𝐃𝚵𝐋𝚰𝐆𝚮𝚻𝐅𝐔𝐋 𝐃𝚫𝐘",
+          body: "https://chat.whatsapp.com/LqYfmGAmfbnHhtSWSsXP1v",
+          thumbnailUrl: "https://telegra.ph/file/7cf3c490a482f0ae79e02.jpg",
+          sourceUrl: "https://chat.whatsapp.com/LqYfmGAmfbnHhtSWSsXP1v",
+          mediaType: 1,
+          renderLargerThumbnail: true
+          }}
+      };
+
+
+await ryozingod.sendMessage(m.chat, dooc, {quoted: m});
+
+
+break;
+
 case "menu": case "help": {
 inireact()
 let timestamp = speed()
