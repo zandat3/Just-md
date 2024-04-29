@@ -1328,6 +1328,7 @@ m.reply(`> *Bot Speed*\n> *${latensi.toFixed(4)} 𝐌𝐬*`)
 break
 
 case "alive":
+inireact()
 const audiovn = "./drex vision.mp3";
     const dooc = {
         audio: {
@@ -1358,6 +1359,7 @@ await ryozingod.sendMessage(m.chat, dooc, {quoted: m});
 break;
 
 case 'runtime':
+		inireact()
                 let pinga = `𝐃𝚪𝚵𝚾 𝛁𝚰𝐒𝚰𝚯𝚴 𝚳𝐃 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐟𝐨𝐫 ${runtime(process.uptime())}`
                 ryozingod.sendMessage(m.chat, {
                     text: pinga,
