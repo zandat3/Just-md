@@ -1386,384 +1386,384 @@ let latensi = speed() - timestamp
 let run = runtime(process.uptime())
 let itsmenu = `
 
-> ✲   *${ucapanWaktu}*
+ ✲   *${ucapanWaktu}*
 
->  ⭔ *𝐃𝚪𝚵𝚾 𝛁𝚰𝐒𝚰𝚯𝚴 𝚳𝐃*
-> ⭔ *_${weton} - ${week}, ${calender}_*
+ ⭔ *𝐃𝚪𝚵𝚾 𝛁𝚰𝐒𝚰𝚯𝚴 𝚳𝐃*
+ ⭔ *_${weton} - ${week}, ${calender}_*
 
->   - 𖣂 Sc Private 𖤲 <特> 𖤲
-> ⭔ 名前   : ${pushname}
-> ⭔ タグ   : @${m.sender.split('@')[0]}
-> ⭔ 時間   : ${ucapanWaktu}
-> ⭔ Prefix  : ${prefix ? prefix : '✳ 𝐌𝐮𝐥𝐭𝐢 ༢'}
-> ⭔ Library   : 𝐖𝐬𝐁𝐚𝐢𝐥𝐞𝐲𝐬-𝐌𝐃.
-> ⭔ Status     : ${ryozingod.public ? '✱ 𝐏𝐮𝐛𝐥𝐢𝐜 ༣' : '✲ 𝐒𝐞𝐥𝐟 ༣'}
-> ⭔ Resp Speed : ${latensi.toFixed(4)}
+   - 𖣂 Sc Private 𖤲 <特> 𖤲
+ ⭔ 名前   : ${pushname}
+ ⭔ タグ   : @${m.sender.split('@')[0]}
+ ⭔ 時間   : ${ucapanWaktu}
+ ⭔ Prefix  : ${prefix ? prefix : '✳ 𝐌𝐮𝐥𝐭𝐢 ༢'}
+ ⭔ Library   : 𝐖𝐬𝐁𝐚𝐢𝐥𝐞𝐲𝐬-𝐌𝐃.
+ ⭔ Status     : ${ryozingod.public ? '✱ 𝐏𝐮𝐛𝐥𝐢𝐜 ༣' : '✲ 𝐒𝐞𝐥𝐟 ༣'}
+ ⭔ Resp Speed : ${latensi.toFixed(4)}
 
-> ╭ ──▸ \`Owner\`
-> │
-> │⬡ Addprem 62XX/TAG 30d
-> │⬡ Dellprem 62XX/TAG 30d
-> │⬡ self
-> │⬡ public
-> │⬡ shutdown
-> │⬡ addcase 
-> │⬡ delcase
-> │⬡ join [link group]
-> │⬡ block [nomor]
-> │⬡ unblock [nomor]
-> │⬡ listblock
-> │⬡ setppbot [reply gambar]
-> │⬡ setbiobot [teks]
-> │⬡ listpc 
-> │ >
-> │ =>
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Owner\`
+ │
+ │⬡ Addprem 62XX/TAG 30d
+ │⬡ Dellprem 62XX/TAG 30d
+ │⬡ self
+ │⬡ public
+ │⬡ shutdown
+ │⬡ addcase 
+ │⬡ delcase
+ │⬡ join [link group]
+ │⬡ block [nomor]
+ │⬡ unblock [nomor]
+ │⬡ listblock
+ │⬡ setppbot [reply gambar]
+ │⬡ setbiobot [teks]
+ │⬡ listpc 
+ │ >
+ │ =>
+ │
+ ╰ ───────⬣
  
-> ╭ ──▸ \`Special\`
-> │
-> │⬡ bugmenu
-> │⬡ spamsms 62,878XX|jumlah
-> │⬡ tempban 62,878XX
-> │⬡ ddos-mix [url] [time] [thread] [rate]
-> │⬡ inspect-web link
-> │⬡ createunbanv1
-> │⬡ createunbanv2
-> │⬡ createunbanv3
-> │⬡ createunbanv4
-> │⬡ createunbanv5
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Special\`
+ │
+ │⬡ bugmenu
+ │⬡ spamsms 62,878XX|jumlah
+ │⬡ tempban 62,878XX
+ │⬡ ddos-mix [url] [time] [thread] [rate]
+ │⬡ inspect-web link
+ │⬡ createunbanv1
+ │⬡ createunbanv2
+ │⬡ createunbanv3
+ │⬡ createunbanv4
+ │⬡ createunbanv5
+ │
+ ╰ ───────⬣
 
-> ╭ ──▸ \`Convert\`
-> │
-> │⬡ toimg | reply stiker
-> │⬡ toaudio | reply video
-> │⬡ sticker | reply gambar
-> │⬡ s | reply gambar 
-> │⬡ smeme teks bawah|teks atas
-> │⬡ tomp4 | reply stiker
-> │⬡ kalkulator 
-> │⬡ removebg | reply gambar
-> │⬡ wm | reply stiker
-> │⬡ attp teks
-> │⬡ styletext teks
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Convert\`
+ │
+ │⬡ toimg | reply stiker
+ │⬡ toaudio | reply video
+ │⬡ sticker | reply gambar
+ │⬡ s | reply gambar 
+ │⬡ smeme teks bawah|teks atas
+ │⬡ tomp4 | reply stiker
+ │⬡ kalkulator 
+ │⬡ removebg | reply gambar
+ │⬡ wm | reply stiker
+ │⬡ attp teks
+ │⬡ styletext teks
+ │
+ ╰ ───────⬣
 
-> ╭ ──▸ \`Openai\`
-> │
-> │⬡ ai query
-> │⬡ prompt-gpt query
-> │⬡ dall-e Ilustrasi 
-> │⬡ gptgo query
-> │⬡ c-ai query|query
-> │⬡ stablediffusion ilustrasi
-> │⬡ gpt4 query
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Openai\`
+ │
+ │⬡ ai query
+ │⬡ prompt-gpt query
+ │⬡ dall-e Ilustrasi 
+ │⬡ gptgo query
+ │⬡ c-ai query|query
+ │⬡ stablediffusion ilustrasi
+ │⬡ gpt4 query
+ │
+ ╰ ───────⬣
  
-> ╭ ──▸ \`Search\`
-> │
-> │⬡ google-article query
-> │⬡ google-search query
-> │⬡ search-kbbi query
-> │⬡ search-apk query
-> │⬡ search-resep
-> │⬡ search-sticker
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Search\`
+ │
+ │⬡ google-article query
+ │⬡ google-search query
+ │⬡ search-kbbi query
+ │⬡ search-apk query
+ │⬡ search-resep
+ │⬡ search-sticker
+ │
+ ╰ ───────⬣
 
-> ╭ ──▸ \`Voice\`
-> │
-> │⬡ Bass ReplyAudio
-> │⬡ Blown ReplyAudio
-> │⬡ Deep ReplyAudio
-> │⬡ Earrape ReplyAudio
-> │⬡ Fast ReplyAudio
-> │⬡ Fat ReplyAudio
-> │⬡ Nightcore ReplyAudio
-> │⬡ Reverse ReplyAudio
-> │⬡ Robot ReplyAudio
-> │⬡ Slow ReplyAudio
-> │⬡ Tupai ReplyAudio
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Voice\`
+ │
+ │⬡ Bass ReplyAudio
+ │⬡ Blown ReplyAudio
+ │⬡ Deep ReplyAudio
+ │⬡ Earrape ReplyAudio
+ │⬡ Fast ReplyAudio
+ │⬡ Fat ReplyAudio
+ │⬡ Nightcore ReplyAudio
+ │⬡ Reverse ReplyAudio
+ │⬡ Robot ReplyAudio
+ │⬡ Slow ReplyAudio
+ │⬡ Tupai ReplyAudio
+ │
+ ╰ ───────⬣
 
-> ╭ ──▸ \`Group\`
-> │
-> │⬡ setppgroup reply gambar
-> │⬡ promote tag
-> │⬡ demote tag
-> │⬡ kick tag
-> │⬡ add nomor
-> │⬡ deleteppgroup
-> │⬡ delppgc
-> │⬡ editgroup teks
-> │⬡ editsubjek teks 
-> │⬡ editinfo teks
-> │⬡ editdesk teks
-> │⬡ clearchat
-> │⬡ resetlinkgc
-> │⬡ revoke
-> │⬡ infogc
-> │⬡ getppgc
-> │⬡ closegroup
-> │⬡ opengroup
-> │⬡ hidetag
-> │⬡ tagall
-> │⬡ linkgc
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Group\`
+ │
+ │⬡ setppgroup reply gambar 
+ │⬡ promote tag
+ │⬡ demote tag
+ │⬡ kick tag
+ │⬡ add nomor
+ │⬡ deleteppgroup
+ │⬡ delppgc
+ │⬡ editgroup teks
+ │⬡ editsubjek teks 
+ │⬡ editinfo teks
+ │⬡ editdesk teks
+ │⬡ clearchat
+ │⬡ resetlinkgc
+ │⬡ revoke
+ │⬡ infogc
+ │⬡ getppgc
+ │⬡ closegroup
+ │⬡ opengroup
+ │⬡ hidetag
+ │⬡ tagall
+ │⬡ linkgc
+ │
+ ╰ ───────⬣
  
-> ╭ ──▸ \`Download\`
-> │
-> │⬡ gitclone url
-> │⬡ mediafire url
-> │⬡ tiktokmp3 url
-> │⬡ tiktokvideo url
-> │⬡ ytmp4 url
-> │⬡ ytmp3 url
-> │⬡ play judul
-> │⬡ playmusic judul
-> │⬡ douyindl url
-> │⬡ igdlimage url
-> │⬡ igdlmp4 url
-> │⬡ pintmp4 url
-> │⬡ happymod nama apk
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Download\`
+ │
+ │⬡ gitclone url
+ │⬡ mediafire url
+ │⬡ tiktokmp3 url
+ │⬡ tiktokvideo url
+ │⬡ ytmp4 url
+ │⬡ ytmp3 url
+ │⬡ play judul
+ │⬡ playmusic judul
+ │⬡ douyindl url
+ │⬡ igdlimage url
+ │⬡ igdlmp4 url
+ │⬡ pintmp4 url
+ │⬡ happymod nama apk
+ │
+ ╰ ───────⬣
 
-> ╭ ──▸ \`Fun\`
-> │
-> │⬡ apakah
-> │⬡ bisakah
-> │⬡ bagaimanakah
-> │⬡ gantengcek
-> │⬡ cekganteng
-> │⬡ cantikcek
-> │⬡ cekcantik
-> │⬡ sangecek
-> │⬡ ceksange
-> │⬡ gaycek
-> │⬡ cekgay
-> │⬡ lesbicek
-> │⬡ ceklesbi
-> │⬡ kapankah
-> │⬡ wangy
-> │⬡ cekmati
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Fun\`
+ │
+ │⬡ apakah
+ │⬡ bisakah
+ │⬡ bagaimanakah
+ │⬡ gantengcek
+ │⬡ cekganteng
+ │⬡ cantikcek
+ │⬡ cekcantik
+ │⬡ sangecek
+ │⬡ ceksange
+ │⬡ gaycek
+ │⬡ cekgay
+ │⬡ lesbicek
+ │⬡ ceklesbi
+ │⬡ kapankah
+ │⬡ wangy
+ │⬡ cekmati
+ │
+ ╰ ───────⬣
 
-> ╭ ──▸ \`Game\`
-> │
-> │⬡ tictactoe
-> │⬡ suitpvp
-> │⬡ kuismath
-> │⬡ tebak gambar
-> │⬡ tebak kata
-> │⬡ tebak kalimat
-> │⬡ tebak lirik
-> │⬡ tebak tebakan
-> │⬡ tebak bendera
-> │⬡ tebak bendera2
-> │⬡ tebak kabupaten
-> │⬡ tebak kimia
-> │⬡ tebak asahotak
-> │⬡ tebak siapakahaku
-> │⬡ tebak susunkata
-> │⬡ tebak tekateki
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Game\`
+ │
+ │⬡ tictactoe
+ │⬡ suitpvp
+ │⬡ kuismath
+ │⬡ tebak gambar
+ │⬡ tebak kata
+ │⬡ tebak kalimat
+ │⬡ tebak lirik
+ │⬡ tebak tebakan
+ │⬡ tebak bendera
+ │⬡ tebak bendera2
+ │⬡ tebak kabupaten
+ │⬡ tebak kimia
+ │⬡ tebak asahotak
+ │⬡ tebak siapakahaku
+ │⬡ tebak susunkata
+ │⬡ tebak tekateki
+ │
+ ╰ ───────⬣
 
-> ╭ ──▸ \`Random\`
-> │
-> │⬡ tokohindo
-> │⬡ ngatanyindir
-> │⬡ ngatabuaya
-> │⬡ ngatababaji
-> │⬡ ngatabacot
-> │⬡ ngatabucin
-> │⬡ ilhamberkata
-> │⬡ quotesanime
-> │⬡ truth
-> │⬡ dare
-> │⬡ pantun
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Random\`
+ │
+ │⬡ tokohindo
+ │⬡ ngatanyindir
+ │⬡ ngatabuaya
+ │⬡ ngatababaji
+ │⬡ ngatabacot
+ │⬡ ngatabucin
+ │⬡ ilhamberkata
+ │⬡ quotesanime
+ │⬡ truth
+ │⬡ dare
+ │⬡ pantun
+ │
+ ╰ ───────⬣
  
-> ╭ ──▸ \`PhotoOxy\`
-> │
-> │⬡ shadow namalu 
-> │⬡ write namalu 
-> │⬡ romantic namalu 
-> │⬡ burnpaper namalu
-> │⬡ smoke namalu 
-> │⬡ narutobanner namalu 
-> │⬡ love namalu 
-> │⬡ undergrass namalu
-> │⬡ doublelove namalu 
-> │⬡ coffecup namalu
-> │⬡ underwaterocean namalu
-> │⬡ smokyneon namalu
-> │⬡ starstext namalu
-> │⬡ rainboweffect namalu
-> │⬡ balloontext namalu
-> │⬡ metalliceffect namalu
-> │⬡ embroiderytext namalu
-> │⬡ flamingtext namalu
-> │⬡ stonetext namalu
-> │⬡ writeart namalu
-> │⬡ summertext namalu
-> │⬡ wolfmetaltext namalu
-> │⬡ nature3dtext namalu
-> │⬡ rosestext namalu
-> │⬡ naturetypography namalu
-> │⬡ quotesunder namalu
-> │⬡ shinetext namalu
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`PhotoOxy\`
+ │
+ │⬡ shadow namalu 
+ │⬡ write namalu 
+ │⬡ romantic namalu 
+ │⬡ burnpaper namalu
+ │⬡ smoke namalu 
+ │⬡ narutobanner namalu 
+ │⬡ love namalu 
+ │⬡ undergrass namalu
+ │⬡ doublelove namalu 
+ │⬡ coffecup namalu
+ │⬡ underwaterocean namalu
+ │⬡ smokyneon namalu
+ │⬡ starstext namalu
+ │⬡ rainboweffect namalu
+ │⬡ balloontext namalu
+ │⬡ metalliceffect namalu
+ │⬡ embroiderytext namalu
+ │⬡ flamingtext namalu
+ │⬡ stonetext namalu
+ │⬡ writeart namalu
+ │⬡ summertext namalu
+ │⬡ wolfmetaltext namalu
+ │⬡ nature3dtext namalu
+ │⬡ rosestext namalu
+ │⬡ naturetypography namalu
+ │⬡ quotesunder namalu
+ │⬡ shinetext namalu
+ │
+ ╰ ───────⬣
 
-> ╭ ──▸ \`Panel\`
-> │
-> │⬡ Delsrv
-> │⬡ Delusr
-> │⬡ Listram
-> │⬡ Listsrv
-> │⬡ Listusr
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Panel\`
+ │
+ │⬡ Delsrv
+ │⬡ Delusr
+ │⬡ Listram
+ │⬡ Listsrv
+ │⬡ Listusr
+ │
+ ╰ ───────⬣
 
-> ╭ ──▸ \`Primbon\`
-> │
-> │⬡ Nomorhoki
-> │⬡ Artimimpi
-> │⬡ Artinama
-> │⬡ Ramaljodoh
-> │⬡ Ramalcinta
-> │⬡ Ramaljodohbali
-> │⬡ Suamiistri
-> │⬡ Cocoknama
-> │⬡ Pasangan
-> │⬡ Jadiannikah
-> │⬡ Sifatusaha
-> │⬡ Rezeki
-> │⬡ Pekerjaan
-> │⬡ Nasib
-> │⬡ Penyakit
-> │⬡ Tarot
-> │⬡ Fengshui
-> │⬡ Haribaik
-> │⬡ Harisangar
-> │⬡ Harisial
-> │⬡ Nagahari
-> │⬡ Arahrezeki
-> │⬡ Peruntungan
-> │⬡ Weton
-> │⬡ Karakter
-> │⬡ Keberuntungan
-> │⬡ Masasubur
-> │⬡ Memancing
-> │⬡ Zodiak
-> │⬡ Shio
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Primbon\`
+ │
+ │⬡ Nomorhoki
+ │⬡ Artimimpi
+ │⬡ Artinama
+ │⬡ Ramaljodoh
+ │⬡ Ramalcinta
+ │⬡ Ramaljodohbali
+ │⬡ Suamiistri
+ │⬡ Cocoknama
+ │⬡ Pasangan
+ │⬡ Jadiannikah
+ │⬡ Sifatusaha
+ │⬡ Rezeki
+ │⬡ Pekerjaan
+ │⬡ Nasib
+ │⬡ Penyakit
+ │⬡ Tarot
+ │⬡ Fengshui
+ │⬡ Haribaik
+ │⬡ Harisangar
+ │⬡ Harisial
+ │⬡ Nagahari
+ │⬡ Arahrezeki
+ │⬡ Peruntungan
+ │⬡ Weton
+ │⬡ Karakter
+ │⬡ Keberuntungan
+ │⬡ Masasubur
+ │⬡ Memancing
+ │⬡ Zodiak
+ │⬡ Shio
+ │
+ ╰ ───────⬣
 
-> ╭ ──▸ \`Scrape\`
-> │
-> │⬡ akira
-> │⬡ akiyama
-> │⬡ ana
-> │⬡ asuna
-> │⬡ ayuzawa
-> │⬡ boruto
-> │⬡ chitoge
-> │⬡ deidara
-> │⬡ doraemon
-> │⬡ elaina
-> │⬡ emilia
-> │⬡ erza
-> │⬡ gremory
-> │⬡ hestia
-> │⬡ hinata
-> │⬡ inori
-> │⬡ isuzu
-> │⬡ itachi
-> │⬡ itori
-> │⬡ kaga
-> │⬡ kagura
-> │⬡ kakasih
-> │⬡ kaori
-> │⬡ keneki
-> │⬡ kotori
-> │⬡ kurumi
-> │⬡ madara
-> │⬡ mikasa
-> │⬡ miku
-> │⬡ minato
-> │⬡ naruto
-> │⬡ nezuko
-> │⬡ onepiece
-> │⬡ pokemon
-> │⬡ rize
-> │⬡ sagiri
-> │⬡ sakura
-> │⬡ sasuke
-> │⬡ shina
-> │⬡ shinka
-> │⬡ shizuka
-> │⬡ shota
-> │⬡ toukachan
-> │⬡ tsunade
-> │⬡ yukiyuki
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Scrape\`
+ │
+ │⬡ akira
+ │⬡ akiyama
+ │⬡ ana
+ │⬡ asuna
+ │⬡ ayuzawa
+ │⬡ boruto
+ │⬡ chitoge
+ │⬡ deidara
+ │⬡ doraemon
+ │⬡ elaina
+ │⬡ emilia
+ │⬡ erza
+ │⬡ gremory
+ │⬡ hestia
+ │⬡ hinata
+ │⬡ inori
+ │⬡ isuzu
+ │⬡ itachi
+ │⬡ itori
+ │⬡ kaga
+ │⬡ kagura
+ │⬡ kakasih
+ │⬡ kaori
+ │⬡ keneki
+ │⬡ kotori
+ │⬡ kurumi
+ │⬡ madara
+ │⬡ mikasa
+ │⬡ miku
+ │⬡ minato
+ │⬡ naruto
+ │⬡ nezuko
+ │⬡ onepiece
+ │⬡ pokemon
+ │⬡ rize
+ │⬡ sagiri
+ │⬡ sakura
+ │⬡ sasuke
+ │⬡ shina
+ │⬡ shinka
+ │⬡ shizuka
+ │⬡ shota
+ │⬡ toukachan
+ │⬡ tsunade
+ │⬡ yukiyuki
+ │
+ ╰ ───────⬣
  
-> ╭ ──▸ \`PushMenu\`
-> │
-> │⬡ pushkontakidgc idgc|teksny
-> │⬡ pushkontakv1 idgc|teksnya
-> │⬡ pushkontakv2 teks
-> │⬡ pushkontakv3 replyimg|teks
-> │⬡ savecontact idgc
-> │⬡ jpm replyimg|teks
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`PushMenu\`
+ │
+ │⬡ pushkontakidgc idgc|teksny
+ │⬡ pushkontakv1 idgc|teksnya
+ │⬡ pushkontakv2 teks
+ │⬡ pushkontakv3 replyimg|teks
+ │⬡ savecontact idgc
+ │⬡ jpm replyimg|teks
+ │
+ ╰ ───────⬣
 
-> ╭ ──▸ \`Ephoto360 Maker\`
-> │⬡ glitchtext namalu
-> │⬡ writetext namalu
-> │⬡ advancedglow namalu
-> │⬡ typographytext namalu
-> │⬡ pixelglitch namalu
-> │⬡ neonglitch namalu
-> │⬡ flagtext namalu
-> │⬡ flag3dtext namalu
-> │⬡ deletingtext namalu
-> │⬡ blackpinkstyle namalu
-> │⬡ glowingtext namalu
-> │⬡ underwatertext namalu
-> │⬡ logomaker namalu
-> │⬡ cartoonstyle namalu
-> │⬡ papercutstyle namalu
-> │⬡ watercolortext namalu
-> │⬡ effectclouds namalu
-> │⬡ blackpinklogo namalu
-> │⬡ gradienttext namalu
-> │⬡ summerbeach namalu
-> │⬡ luxurygold namalu
-> │⬡ multicoloredneon namalu
-> │⬡ sandsummer namalu
-> │⬡ galaxywallpaper namalu
-> │⬡ 1917style namalu
-> │⬡ makingneon namalu
-> │⬡ royaltext namalu
-> │⬡ freecreate namalu
-> │⬡ galaxystyle namalu
-> │⬡ lighteffects namalu
-> │
-> ╰ ───────⬣
+ ╭ ──▸ \`Ephoto360 Maker\`
+ │⬡ glitchtext namalu
+ │⬡ writetext namalu
+ │⬡ advancedglow namalu
+ │⬡ typographytext namalu
+ │⬡ pixelglitch namalu
+ │⬡ neonglitch namalu
+ │⬡ flagtext namalu
+ │⬡ flag3dtext namalu
+ │⬡ deletingtext namalu
+ │⬡ blackpinkstyle namalu
+ │⬡ glowingtext namalu
+ │⬡ underwatertext namalu
+ │⬡ logomaker namalu
+ │⬡ cartoonstyle namalu
+ │⬡ papercutstyle namalu
+ │⬡ watercolortext namalu
+ │⬡ effectclouds namalu
+ │⬡ blackpinklogo namalu
+ │⬡ gradienttext namalu
+ │⬡ summerbeach namalu
+ │⬡ luxurygold namalu
+ │⬡ multicoloredneon namalu
+ │⬡ sandsummer namalu
+ │⬡ galaxywallpaper namalu
+ │⬡ 1917style namalu
+ │⬡ makingneon namalu
+ │⬡ royaltext namalu
+ │⬡ freecreate namalu
+ │⬡ galaxystyle namalu
+ │⬡ lighteffects namalu
+ │
+ ╰ ───────⬣
 
  ╭ ──▸ \`Sound\`
  │
