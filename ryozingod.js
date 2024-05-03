@@ -117,7 +117,6 @@ const quoted = (fatkuns.mtype == 'buttonsMessage') ? fatkuns[Object.keys(fatkuns
 const mime = (quoted.msg || quoted).mimetype || ''
 const qmsg = (quoted.msg || quoted)
 const isMedia = /image|video|sticker|audio/.test(mime)
-let vote = db.data.others.vote = []
 //User
 var isAuthor = global.Contributor.replace(/[^0-9]/g, '').includes(m.sender.split("@")[0])
 const botNumber = await ryozingod.decodeJid(ryozingod.user.id)
