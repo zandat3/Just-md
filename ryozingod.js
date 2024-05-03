@@ -1360,7 +1360,7 @@ break;
 
 case 'runtime':
 		inireact()
-                let pinga = `𝐃𝚪𝚵𝚾 𝛁𝚰𝐒𝚰𝚯𝚴 𝚳𝐃 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐟𝐨𝐫 ${runtime(process.uptime())}`
+                let pinga = `> 𝐃𝚪𝚵𝚾 𝛁𝚰𝐒𝚰𝚯𝚴 𝚳𝐃 𝐡𝐚𝐬 𝐛𝐞𝐞𝐧 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐟𝐨𝐫 ${runtime(process.uptime())}`
                 ryozingod.sendMessage(m.chat, {
                     text: pinga,
                     contextInfo: {
@@ -1790,7 +1790,7 @@ title: '⟠ 𝐃𝐑𝚺𝐗 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々',
   renderLargerThumbnail: true,
   thumbnail:nulll2,
   mediaType: 4,
-  MediaUrl:`${global.yt}`,
+  MediaUrl:`${runtime(process.uptime())}`,
   sourceUrl:`${global.yt}`,
   }}
  }
@@ -1990,7 +1990,7 @@ case "bugmenu": case "warmenu": {
       showAdAttribution: true,
       thumbnail:nulll2,
       mediaType: 4,
-      MediaUrl:`${global.yt}`,
+      MediaUrl:`${runtime(process.uptime())}`,
       sourceUrl:`${global.yt}`,
       }}
      }
@@ -2626,12 +2626,12 @@ var thumbnya = `https://i.ytimg.com/vi/${res.videoId}/hqdefault.jpg`
 var thumbnya = `https://i.ytimg.com/vi/${res.videoId}/default.jpg`
 }
 let inithumb = await getBuffer(thumbnya)
-let teks = `*💢 Y O U T U B E - M P 3*
+let teks = `> *💢 Y O U T U B E - M P 3*
 
-🔶 Channel : ${res.author.name}
-🔶 Viewers : ${res.views} Kali
-🔶 Duration : ${res.timestamp}
-🔶 Url : ${res.url}`
+> *👺 Channel : ${res.author.name}*
+> *👺 Viewers : ${res.views} Kali*
+> *👺 Duration : ${res.timestamp}*
+> *👺 Url : ${res.url}*`
 
 ryozingod.sendMessage(m.chat, { contextInfo: { externalAdReply: { showAdAttribution: true, 
 title: `${res.title}`,
