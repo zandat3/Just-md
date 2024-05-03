@@ -1386,559 +1386,398 @@ let latensi = speed() - timestamp
 let run = runtime(process.uptime())
 let itsmenu = `
 
- ✲   *${ucapanWaktu}*
+> ✲   *${ucapanWaktu}*
 
- ⭔ *𝐃𝚪𝚵𝚾 𝛁𝚰𝐒𝚰𝚯𝚴 𝚳𝐃*
- ⭔ *_${weton} - ${week}, ${calender}_*
+> ⭔ 𝐃𝚪𝚵𝚾 𝛁𝚰𝐒𝚰𝚯𝚴 𝚳𝐃
+> ⭔ *_${weton} - ${week}, ${calender}_*
 
-   - 𖣂 Sc Private 𖤲 <特> 𖤲
- ⭔ 名前   : ${pushname}
- ⭔ タグ   : @${m.sender.split('@')[0]}
- ⭔ 時間   : ${ucapanWaktu}
- ⭔ Prefix  : ${prefix ? prefix : '✳ 𝐌𝐮𝐥𝐭𝐢 ༢'}
- ⭔ Library   : 𝐖𝐬𝐁𝐚𝐢𝐥𝐞𝐲𝐬-𝐌𝐃.
- ⭔ Status     : ${ryozingod.public ? '✱ 𝐏𝐮𝐛𝐥𝐢𝐜 ༣' : '✲ 𝐒𝐞𝐥𝐟 ༣'}
- ⭔ Resp Speed : ${latensi.toFixed(4)}
+> - 𖣂 Sc Private 𖤲 <特> 𖤲
+> ⭔ 名前   : ${pushname}
+> ⭔ タグ   : @${m.sender.split('@')[0]}
+> ⭔ 時間   : ${ucapanWaktu}
+> ⭔ Prefix  : ${prefix ? prefix : '✳ 𝐌𝐮𝐥𝐭𝐢 ༢'}
+> ⭔ Library   : 𝐖𝐬𝐁𝐚𝐢𝐥𝐞𝐲𝐬-𝐌𝐃.
+> ⭔ Status     : ${ryozingod.public ? '✱ 𝐏𝐮𝐛𝐥𝐢𝐜 ༣' : '✲ 𝐒𝐞𝐥𝐟 ༣'}
+> ⭔ Resp Speed : ${latensi.toFixed(4)}
 
- ╭ ──▸ \`Owner\`
- │
- │⬡ Addprem 62XX/TAG 30d
- │⬡ Dellprem 62XX/TAG 30d
- │⬡ self
- │⬡ public
- │⬡ shutdown
- │⬡ addcase 
- │⬡ delcase
- │⬡ join [link group]
- │⬡ block [nomor]
- │⬡ unblock [nomor]
- │⬡ listblock
- │⬡ setppbot [reply gambar]
- │⬡ setbiobot [teks]
- │⬡ listpc 
- │ >
- │ =>
- │
- ╰ ───────⬣
+> ╭ ──▸ \`Owner\`
+> │
+> │⬡ Addprem 62XX/TAG 30d
+> │⬡ Dellprem 62XX/TAG 30d
+> │⬡ self
+> │⬡ public
+> │⬡ shutdown
+> │⬡ addcase 
+> │⬡ delcase
+> │⬡ join [link group]
+> │⬡ block [nomor]
+> │⬡ unblock [nomor]
+> │⬡ listblock
+> │⬡ setppbot [reply gambar]
+> │⬡ setbiobot [teks]
+> │⬡ listpc 
+> │ >
+> │ =>
+> │
+> ╰ ───────⬣
+
+> ╭ ──▸ \`Special\`
+> │
+> │⬡ bugmenu
+> │⬡ spamsms 62,878XX|jumlah
+> │⬡ tempban 62,878XX
+> │⬡ ddos-mix [url] [time] [thread] [rate]
+> │⬡ inspect-web link
+> │⬡ createunbanv1
+> │⬡ createunbanv2
+> │⬡ createunbanv3
+> │⬡ createunbanv4
+> │⬡ createunbanv5
+> │
+> ╰ ───────⬣
+
+> ╭ ──▸ \`Convert\`
+> │
+> │⬡ toimg | reply stiker
+> │⬡ toaudio | reply video
+> │⬡ sticker | reply gambar
+> │⬡ s | reply gambar 
+> │⬡ smeme teks bawah|teks atas
+> │⬡ tomp4 | reply stiker
+> │⬡ kalkulator 
+> │⬡ removebg | reply gambar
+> │⬡ wm | reply stiker
+> │⬡ attp teks
+> │⬡ styletext teks
+> │
+> ╰ ───────⬣
+
+> ╭ ──▸ \`Openai\`
+> │
+> │⬡ ai query
+> │⬡ prompt-gpt query
+> │⬡ dall-e Ilustrasi 
+> │⬡ gptgo query
+> │⬡ c-ai query|query
+> │⬡ stablediffusion ilustrasi
+> │⬡ gpt4 query
+> │
+> ╰ ───────⬣
  
- ╭ ──▸ \`Special\`
- │
- │⬡ bugmenu
- │⬡ spamsms 62,878XX|jumlah
- │⬡ tempban 62,878XX
- │⬡ ddos-mix [url] [time] [thread] [rate]
- │⬡ inspect-web link
- │⬡ createunbanv1
- │⬡ createunbanv2
- │⬡ createunbanv3
- │⬡ createunbanv4
- │⬡ createunbanv5
- │
- ╰ ───────⬣
+> ╭ ──▸ \`Search\`
+> │
+> │⬡ google-article query
+> │⬡ google-search query
+> │⬡ search-kbbi query
+> │⬡ search-apk query
+> │⬡ search-resep
+> │⬡ search-sticker
+> │
+> ╰ ───────⬣
 
- ╭ ──▸ \`Convert\`
- │
- │⬡ toimg | reply stiker
- │⬡ toaudio | reply video
- │⬡ sticker | reply gambar
- │⬡ s | reply gambar 
- │⬡ smeme teks bawah|teks atas
- │⬡ tomp4 | reply stiker
- │⬡ kalkulator 
- │⬡ removebg | reply gambar
- │⬡ wm | reply stiker
- │⬡ attp teks
- │⬡ styletext teks
- │
- ╰ ───────⬣
+> ╭ ──▸ \`Voice\`
+> │
+> │⬡ Bass ReplyAudio
+> │⬡ Blown ReplyAudio
+> │⬡ Deep ReplyAudio
+> │⬡ Earrape ReplyAudio
+> │⬡ Fast ReplyAudio
+> │⬡ Fat ReplyAudio
+> │⬡ Nightcore ReplyAudio
+> │⬡ Reverse ReplyAudio
+> │⬡ Robot ReplyAudio
+> │⬡ Slow ReplyAudio
+> │⬡ Tupai ReplyAudio
+> │
+> ╰ ───────⬣
 
- ╭ ──▸ \`Openai\`
- │
- │⬡ ai query
- │⬡ prompt-gpt query
- │⬡ dall-e Ilustrasi 
- │⬡ gptgo query
- │⬡ c-ai query|query
- │⬡ stablediffusion ilustrasi
- │⬡ gpt4 query
- │
- ╰ ───────⬣
+> ╭ ──▸ \`Group\`
+> │
+> │⬡ setppgroup reply gambar 
+> │⬡ promote tag
+> │⬡ demote tag
+> │⬡ kick tag
+> │⬡ add nomor
+> │⬡ deleteppgroup
+> │⬡ delppgc
+> │⬡ editgroup teks
+> │⬡ editsubjek teks 
+> │⬡ editinfo teks
+> │⬡ editdesk teks
+>│⬡ resetlinkgc
+> │⬡ revoke
+> │⬡ infogc
+> │⬡ getppgc
+> │⬡ closegroup
+> │⬡ opengroup
+> │⬡ hidetag
+> │⬡ tagall
+> │⬡ linkgc
+> │
+> ╰ ───────⬣
+
+> ╭ ──▸ \`Download\`
+> │
+> │⬡ gitclone url
+> │⬡ mediafire url
+> │⬡ tiktokmp3 url
+> │⬡ tiktokvideo url
+> │⬡ ytmp4 url
+> │⬡ ytmp3 url
+> │⬡ play judul
+> │⬡ playmusic judul
+> │⬡ douyindl url
+> │⬡ igdlimage url
+> │⬡ igdlmp4 url
+> │⬡ pintmp4 url
+> │⬡ happymod nama apk
+> │
+> ╰ ───────⬣
+
+> ╭ ──▸ \`Fun\`
+> │
+> │⬡ apakah
+> │⬡ bisakah
+> │⬡ bagaimanakah
+> │⬡ gantengcek
+> │⬡ cekganteng
+> │⬡ cantikcek
+> │⬡ cekcantik
+> │⬡ sangecek
+> │⬡ ceksange
+> │⬡ gaycek
+> │⬡ cekgay
+> │⬡ lesbicek
+> │⬡ ceklesbi
+> │⬡ kapankah
+> │⬡ wangy
+> │⬡ cekmati
+> │
+> ╰ ───────⬣
+
+> ╭ ──▸ \`Game\`
+> │
+> │⬡ tictactoe
+> │⬡ suitpvp
+> │⬡ kuismath
+> │⬡ tebak gambar
+> │⬡ tebak kata
+> │⬡ tebak kalimat
+> │⬡ tebak lirik
+> │⬡ tebak tebakan
+> │⬡ tebak bendera
+> │⬡ tebak bendera2
+> │⬡ tebak kabupaten
+> │⬡ tebak kimia
+> │⬡ tebak asahotak
+> │⬡ tebak siapakahaku
+> │⬡ tebak susunkata
+> │⬡ tebak tekateki
+> │
+> ╰ ───────⬣
+
+> ╭ ──▸ \`Random\`
+> │
+> │⬡ tokohindo
+> │⬡ ngatanyindir
+> │⬡ ngatabuaya
+> │⬡ ngatababaji
+> │⬡ ngatabacot
+> │⬡ ngatabucin
+> │⬡ ilhamberkata
+> │⬡ quotesanime
+> │⬡ truth
+> │⬡ dare
+> │⬡ pantun
+> │
+> ╰ ───────⬣
  
- ╭ ──▸ \`Search\`
- │
- │⬡ google-article query
- │⬡ google-search query
- │⬡ search-kbbi query
- │⬡ search-apk query
- │⬡ search-resep
- │⬡ search-sticker
- │
- ╰ ───────⬣
+> ╭ ──▸ \`PhotoOxy\`
+> │
+> │⬡ shadow namalu 
+> │⬡ write namalu 
+> │⬡ romantic namalu 
+> │⬡ burnpaper namalu
+> │⬡ smoke namalu 
+> │⬡ narutobanner namalu 
+> │⬡ love namalu 
+> │⬡ undergrass namalu
+> │⬡ doublelove namalu 
+> │⬡ coffecup namalu
+> │⬡ underwaterocean namalu
+> │⬡ smokyneon namalu
+> │⬡ starstext namalu
+> │⬡ rainboweffect namalu
+> │⬡ balloontext namalu
+> │⬡ metalliceffect namalu
+> │⬡ embroiderytext namalu
+> │⬡ flamingtext namalu
+> │⬡ stonetext namalu
+> │⬡ writeart namalu
+> │⬡ summertext namalu
+> │⬡ wolfmetaltext namalu
+> │⬡ nature3dtext namalu
+> │⬡ rosestext namalu
+> │⬡ naturetypography namalu
+> │⬡ quotesunder namalu
+> │⬡ shinetext namalu
+> │
+> ╰ ───────⬣
 
- ╭ ──▸ \`Voice\`
- │
- │⬡ Bass ReplyAudio
- │⬡ Blown ReplyAudio
- │⬡ Deep ReplyAudio
- │⬡ Earrape ReplyAudio
- │⬡ Fast ReplyAudio
- │⬡ Fat ReplyAudio
- │⬡ Nightcore ReplyAudio
- │⬡ Reverse ReplyAudio
- │⬡ Robot ReplyAudio
- │⬡ Slow ReplyAudio
- │⬡ Tupai ReplyAudio
- │
- ╰ ───────⬣
+> ╭ ──▸ \`Panel\`
+> │
+> │⬡ Delsrv
+> │⬡ Delusr
+> │⬡ Listram
+> │⬡ Listsrv
+> │⬡ Listusr
+> │
+> ╰ ───────⬣
 
- ╭ ──▸ \`Group\`
- │
- │⬡ setppgroup reply gambar 
- │⬡ promote tag
- │⬡ demote tag
- │⬡ kick tag
- │⬡ add nomor
- │⬡ deleteppgroup
- │⬡ delppgc
- │⬡ editgroup teks
- │⬡ editsubjek teks 
- │⬡ editinfo teks
- │⬡ editdesk teks
- │⬡ clearchat
- │⬡ resetlinkgc
- │⬡ revoke
- │⬡ infogc
- │⬡ getppgc
- │⬡ closegroup
- │⬡ opengroup
- │⬡ hidetag
- │⬡ tagall
- │⬡ linkgc
- │
- ╰ ───────⬣
+> ╭ ──▸ \`Primbon\`
+> │
+> │⬡ Nomorhoki
+> │⬡ Artimimpi
+> │⬡ Artinama
+> │⬡ Ramaljodoh
+> │⬡ Ramalcinta
+> │⬡ Ramaljodohbali
+> │⬡ Suamiistri
+> │⬡ Cocoknama
+> │⬡ Pasangan
+> │⬡ Jadiannikah
+> │⬡ Sifatusaha
+> │⬡ Rezeki
+> │⬡ Pekerjaan
+> │⬡ Nasib
+> │⬡ Penyakit
+> │⬡ Tarot
+> │⬡ Fengshui
+> │⬡ Haribaik
+> │⬡ Harisangar
+> │⬡ Harisial
+> │⬡ Nagahari
+> │⬡ Arahrezeki
+> │⬡ Peruntungan
+> │⬡ Weton
+> │⬡ Karakter
+> │⬡ Keberuntungan
+> │⬡ Masasubur
+> │⬡ Memancing
+> │⬡ Zodiak
+> │⬡ Shio
+> │
+> ╰ ───────⬣
+
+> ╭ ──▸ \`Scrape\`
+> │
+> │⬡ akira
+> │⬡ akiyama
+> │⬡ ana
+> │⬡ asuna
+> │⬡ ayuzawa
+> │⬡ boruto
+> │⬡ chitoge
+> │⬡ deidara
+> │⬡ doraemon
+> │⬡ elaina
+> │⬡ emilia
+> │⬡ erza
+> │⬡ gremory
+> │⬡ hestia
+> │⬡ hinata
+> │⬡ inori
+> │⬡ isuzu
+> │⬡ itachi
+> │⬡ itori
+> │⬡ kaga
+> │⬡ kagura
+> │⬡ kakasih
+> │⬡ kaori
+> │⬡ keneki
+> │⬡ kotori
+> │⬡ kurumi
+> │⬡ madara
+> │⬡ mikasa
+> │⬡ miku
+> │⬡ minato
+> │⬡ naruto
+> │⬡ nezuko
+> │⬡ onepiece
+> │⬡ pokemon
+> │⬡ rize
+> │⬡ sagiri
+> │⬡ sakura
+> │⬡ sasuke
+> │⬡ shina
+> │⬡ shinka
+> │⬡ shizuka
+> │⬡ shota
+> │⬡ toukachan
+> │⬡ tsunade
+> │⬡ yukiyuki
+> │
+> ╰ ───────⬣
  
- ╭ ──▸ \`Download\`
- │
- │⬡ gitclone url
- │⬡ mediafire url
- │⬡ tiktokmp3 url
- │⬡ tiktokvideo url
- │⬡ ytmp4 url
- │⬡ ytmp3 url
- │⬡ play judul
- │⬡ playmusic judul
- │⬡ douyindl url
- │⬡ igdlimage url
- │⬡ igdlmp4 url
- │⬡ pintmp4 url
- │⬡ happymod nama apk
- │
- ╰ ───────⬣
+> ╭ ──▸ \`PushMenu\`
+> │
+> │⬡ pushkontakidgc idgc|teksny
+> │⬡ pushkontakv1 idgc|teksnya
+> │⬡ pushkontakv2 teks
+> │⬡ pushkontakv3 replyimg|teks
+> │⬡ savecontact idgc
+> │⬡ jpm replyimg|teks
+> │
+> ╰ ───────⬣
 
- ╭ ──▸ \`Fun\`
- │
- │⬡ apakah
- │⬡ bisakah
- │⬡ bagaimanakah
- │⬡ gantengcek
- │⬡ cekganteng
- │⬡ cantikcek
- │⬡ cekcantik
- │⬡ sangecek
- │⬡ ceksange
- │⬡ gaycek
- │⬡ cekgay
- │⬡ lesbicek
- │⬡ ceklesbi
- │⬡ kapankah
- │⬡ wangy
- │⬡ cekmati
- │
- ╰ ───────⬣
+> ╭ ──▸ \`Ephoto360 Maker\`
+> │⬡ glitchtext namalu
+> │⬡ writetext namalu
+> │⬡ advancedglow namalu
+> │⬡ typographytext namalu
+> │⬡ pixelglitch namalu
+> │⬡ neonglitch namalu
+> │⬡ flagtext namalu
+> │⬡ flag3dtext namalu
+> │⬡ deletingtext namalu
+> │⬡ blackpinkstyle namalu
+> │⬡ glowingtext namalu
+> │⬡ underwatertext namalu
+> │⬡ logomaker namalu
+> │⬡ cartoonstyle namalu
+> │⬡ papercutstyle namalu
+> │⬡ watercolortext namalu
+> │⬡ effectclouds namalu
+> │⬡ blackpinklogo namalu
+> │⬡ gradienttext namalu
+> │⬡ summerbeach namalu
+> │⬡ luxurygold namalu
+> │⬡ multicoloredneon namalu
+> │⬡ sandsummer namalu
+> │⬡ galaxywallpaper namalu
+> │⬡ 1917style namalu
+> │⬡ makingneon namalu
+> │⬡ royaltext namalu
+> │⬡ freecreate namalu
+> │⬡ galaxystyle namalu
+> │⬡ lighteffects namalu
+> │
+> ╰ ───────⬣
 
- ╭ ──▸ \`Game\`
- │
- │⬡ tictactoe
- │⬡ suitpvp
- │⬡ kuismath
- │⬡ tebak gambar
- │⬡ tebak kata
- │⬡ tebak kalimat
- │⬡ tebak lirik
- │⬡ tebak tebakan
- │⬡ tebak bendera
- │⬡ tebak bendera2
- │⬡ tebak kabupaten
- │⬡ tebak kimia
- │⬡ tebak asahotak
- │⬡ tebak siapakahaku
- │⬡ tebak susunkata
- │⬡ tebak tekateki
- │
- ╰ ───────⬣
+> ╭ ──▸ \`Sound\`
+> │
+> │⬡ sound1-161
+> │
+> ╰ ───────⬣
 
- ╭ ──▸ \`Random\`
- │
- │⬡ tokohindo
- │⬡ ngatanyindir
- │⬡ ngatabuaya
- │⬡ ngatababaji
- │⬡ ngatabacot
- │⬡ ngatabucin
- │⬡ ilhamberkata
- │⬡ quotesanime
- │⬡ truth
- │⬡ dare
- │⬡ pantun
- │
- ╰ ───────⬣
- 
- ╭ ──▸ \`PhotoOxy\`
- │
- │⬡ shadow namalu 
- │⬡ write namalu 
- │⬡ romantic namalu 
- │⬡ burnpaper namalu
- │⬡ smoke namalu 
- │⬡ narutobanner namalu 
- │⬡ love namalu 
- │⬡ undergrass namalu
- │⬡ doublelove namalu 
- │⬡ coffecup namalu
- │⬡ underwaterocean namalu
- │⬡ smokyneon namalu
- │⬡ starstext namalu
- │⬡ rainboweffect namalu
- │⬡ balloontext namalu
- │⬡ metalliceffect namalu
- │⬡ embroiderytext namalu
- │⬡ flamingtext namalu
- │⬡ stonetext namalu
- │⬡ writeart namalu
- │⬡ summertext namalu
- │⬡ wolfmetaltext namalu
- │⬡ nature3dtext namalu
- │⬡ rosestext namalu
- │⬡ naturetypography namalu
- │⬡ quotesunder namalu
- │⬡ shinetext namalu
- │
- ╰ ───────⬣
-
- ╭ ──▸ \`Panel\`
- │
- │⬡ Delsrv
- │⬡ Delusr
- │⬡ Listram
- │⬡ Listsrv
- │⬡ Listusr
- │
- ╰ ───────⬣
-
- ╭ ──▸ \`Primbon\`
- │
- │⬡ Nomorhoki
- │⬡ Artimimpi
- │⬡ Artinama
- │⬡ Ramaljodoh
- │⬡ Ramalcinta
- │⬡ Ramaljodohbali
- │⬡ Suamiistri
- │⬡ Cocoknama
- │⬡ Pasangan
- │⬡ Jadiannikah
- │⬡ Sifatusaha
- │⬡ Rezeki
- │⬡ Pekerjaan
- │⬡ Nasib
- │⬡ Penyakit
- │⬡ Tarot
- │⬡ Fengshui
- │⬡ Haribaik
- │⬡ Harisangar
- │⬡ Harisial
- │⬡ Nagahari
- │⬡ Arahrezeki
- │⬡ Peruntungan
- │⬡ Weton
- │⬡ Karakter
- │⬡ Keberuntungan
- │⬡ Masasubur
- │⬡ Memancing
- │⬡ Zodiak
- │⬡ Shio
- │
- ╰ ───────⬣
-
- ╭ ──▸ \`Scrape\`
- │
- │⬡ akira
- │⬡ akiyama
- │⬡ ana
- │⬡ asuna
- │⬡ ayuzawa
- │⬡ boruto
- │⬡ chitoge
- │⬡ deidara
- │⬡ doraemon
- │⬡ elaina
- │⬡ emilia
- │⬡ erza
- │⬡ gremory
- │⬡ hestia
- │⬡ hinata
- │⬡ inori
- │⬡ isuzu
- │⬡ itachi
- │⬡ itori
- │⬡ kaga
- │⬡ kagura
- │⬡ kakasih
- │⬡ kaori
- │⬡ keneki
- │⬡ kotori
- │⬡ kurumi
- │⬡ madara
- │⬡ mikasa
- │⬡ miku
- │⬡ minato
- │⬡ naruto
- │⬡ nezuko
- │⬡ onepiece
- │⬡ pokemon
- │⬡ rize
- │⬡ sagiri
- │⬡ sakura
- │⬡ sasuke
- │⬡ shina
- │⬡ shinka
- │⬡ shizuka
- │⬡ shota
- │⬡ toukachan
- │⬡ tsunade
- │⬡ yukiyuki
- │
- ╰ ───────⬣
- 
- ╭ ──▸ \`PushMenu\`
- │
- │⬡ pushkontakidgc idgc|teksny
- │⬡ pushkontakv1 idgc|teksnya
- │⬡ pushkontakv2 teks
- │⬡ pushkontakv3 replyimg|teks
- │⬡ savecontact idgc
- │⬡ jpm replyimg|teks
- │
- ╰ ───────⬣
-
- ╭ ──▸ \`Ephoto360 Maker\`
- │⬡ glitchtext namalu
- │⬡ writetext namalu
- │⬡ advancedglow namalu
- │⬡ typographytext namalu
- │⬡ pixelglitch namalu
- │⬡ neonglitch namalu
- │⬡ flagtext namalu
- │⬡ flag3dtext namalu
- │⬡ deletingtext namalu
- │⬡ blackpinkstyle namalu
- │⬡ glowingtext namalu
- │⬡ underwatertext namalu
- │⬡ logomaker namalu
- │⬡ cartoonstyle namalu
- │⬡ papercutstyle namalu
- │⬡ watercolortext namalu
- │⬡ effectclouds namalu
- │⬡ blackpinklogo namalu
- │⬡ gradienttext namalu
- │⬡ summerbeach namalu
- │⬡ luxurygold namalu
- │⬡ multicoloredneon namalu
- │⬡ sandsummer namalu
- │⬡ galaxywallpaper namalu
- │⬡ 1917style namalu
- │⬡ makingneon namalu
- │⬡ royaltext namalu
- │⬡ freecreate namalu
- │⬡ galaxystyle namalu
- │⬡ lighteffects namalu
- │
- ╰ ───────⬣
-
- ╭ ──▸ \`Sound\`
- │
- │⬡ sound1
- │⬡ sound2
- │⬡ sound3
- │⬡ sound4
- │⬡ sound5
- │⬡ sound6
- │⬡ sound7
- │⬡ sound8
- │⬡ sound9
- │⬡ sound10
- │⬡ sound11
- │⬡ sound12
- │⬡ sound13
- │⬡ sound14
- │⬡ sound15
- │⬡ sound16
- │⬡ sound17
- │⬡ sound18
- │⬡ sound19
- │⬡ sound20
- │⬡ sound21
- │⬡ sound22
- │⬡ sound23
- │⬡ sound24
- │⬡ sound25
- │⬡ sound26
- │⬡ sound27
- │⬡ sound28
- │⬡ sound29
- │⬡ sound30
- │⬡ sound31
- │⬡ sound32
- │⬡ sound33
- │⬡ sound34
- │⬡ sound35
- │⬡ sound36
- │⬡ sound37
- │⬡ sound38
- │⬡ sound39
- │⬡ sound40
- │⬡ sound41
- │⬡ sound42
- │⬡ sound43
- │⬡ sound44
- │⬡ sound45
- │⬡ sound46
- │⬡ sound47
- │⬡ sound48
- │⬡ sound49
- │⬡ sound50
- │⬡ sound51
- │⬡ sound52
- │⬡ sound53
- │⬡ sound54
- │⬡ sound55
- │⬡ sound56
- │⬡ sound57
- │⬡ sound58
- │⬡ sound59
- │⬡ sound60
- │⬡ sound61
- │⬡ sound62
- │⬡ sound63
- │⬡ sound64
- │⬡ sound65
- │⬡ sound66
- │⬡ sound67
- │⬡ sound68
- │⬡ sound69
- │⬡ sound70
- │⬡ sound71
- │⬡ sound72
- │⬡ sound73
- │⬡ sound74
- │⬡ sound75
- │⬡ sound76
- │⬡ sound77
- │⬡ sound78
- │⬡ sound79
- │⬡ sound80
- │⬡ sound81
- │⬡ sound82
- │⬡ sound83
- │⬡ sound84
- │⬡ sound85
- │⬡ sound86
- │⬡ sound87
- │⬡ sound88
- │⬡ sound89
- │⬡ sound90
- │⬡ sound91
- │⬡ sound92
- │⬡ sound93
- │⬡ sound94
- │⬡ sound95
- │⬡ sound96
- │⬡ sound97
- │⬡ sound98
- │⬡ sound99
- │⬡ sound100
- │⬡ sound101
- │⬡ sound102
- │⬡ sound103
- │⬡ sound104
- │⬡ sound105
- │⬡ sound106
- │⬡ sound107
- │⬡ sound108
- │⬡ sound109
- │⬡ sound110
- │⬡ sound111
- │⬡ sound112
- │⬡ sound113
- │⬡ sound114
- │⬡ sound115
- │⬡ sound116
- │⬡ sound117
- │⬡ sound118
- │⬡ sound119
- │⬡ sound120
- │⬡ sound121
- │⬡ sound122
- │⬡ sound123
- │⬡ sound124
- │⬡ sound125
- │⬡ sound126
- │⬡ sound127
- │⬡ sound128
- │⬡ sound129
- │⬡ sound130
- │⬡ sound131
- │⬡ sound132
- │⬡ sound133
- │⬡ sound134
- │⬡ sound135
- │⬡ sound136
- │⬡ sound137
- │⬡ sound138
- │⬡ sound139
- │⬡ sound140
- │⬡ sound141
- │⬡ sound142
- │⬡ sound143
- │⬡ sound144
- │⬡ sound145
- │⬡ sound146
- │⬡ sound147
- │⬡ sound148
- │⬡ sound149
- │⬡ sound150
- │⬡ sound151
- │⬡ sound152
- │⬡ sound153
- │⬡ sound154
- │⬡ sound155
- │⬡ sound156
- │⬡ sound157
- │⬡ sound158
- │⬡ sound159
- │⬡ sound160
- │⬡ sound161
- │
- ╰ ───────⬣
-
- ╭ ──▸ \`Thanks To\`
- │
- │⬡ TheZetsuboXygen
- │⬡ DGXeon
- │⬡ DikaArdnt
- │⬡ Owner Api BetaBot
- │
- ╰ ───────⬣
+> ╭ ──▸ \`Thanks To\`
+> │
+> │⬡ 𝐃𝚺𝐕𝐈𝐋 𝐃𝐑𝚺𝐗
+> │⬡ ⟠ 𝐃𝐑𝚺𝐗 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々
+> │⬡ 𝐃𝚪𝚵𝚾 𝛁𝚰𝐒𝚰𝚯𝚴 𝚳𝐃
+> │⬡ still me😂
+> │
+> ╰ ───────⬣
 `
             let hiks = {
   video: thesky,
@@ -1967,169 +1806,179 @@ case "bugmenu": case "warmenu": {
     let latensi = speed() - timestamp
     let run = runtime(process.uptime())
     let itsmenu = `
-✲   *${ucapanWaktu}*
+> ✲   *${ucapanWaktu}*
 
- ⭔ *\`_𝐃𝐑𝐄𝐗 𝐕𝐈𝐒𝐈𝐎𝐍_\`*
- ⭔ *_${weton} - ${week}, ${calender}_*
+> ⭔  𝐃𝚪𝚵𝚾 𝛁𝚰𝐒𝚰𝚯𝚴 𝚳𝐃
+> ⭔ *_${weton} - ${week}, ${calender}_*
 
-   - 𖣂 Sc Private 𖤲 <特> 𖤲
- ⭔ 名前   : ${pushname}
- ⭔ タグ   : @${m.sender.split('@')[0]}
- ⭔ 時間   : ${ucapanWaktu}
- ⭔ Prefix  : ${prefix ? prefix : '✳ 𝐌𝐮𝐥𝐭𝐢 ༢'}
- ⭔ Library   : 𝐖𝐬𝐁𝐚𝐢𝐥𝐞𝐲𝐬-𝐌𝐃.
- ⭔ Status     : ${ryozingod.public ? '✱ 𝐏𝐮𝐛𝐥𝐢𝐜 ༣' : '✲ 𝐒𝐞𝐥𝐟 ༣'}
- ⭔ Resp Speed : ${latensi.toFixed(4)}
-
- ╭ ──▸ \`Owner\`
- │
- │⬡ Addprem 62XX/TAG 30d
- │⬡ Dellprem 62XX/TAG 30d
- │⬡ self
- │⬡ public
- │⬡ shutdown
- │⬡ addcase 
- │⬡ delcase
- │⬡ join [link group]
- │⬡ block [nomor]
- │⬡ unblock [nomor]
- │⬡ listblock
- │⬡ setppbot [reply gambar]
- │⬡ setbiobot [teks]
- │⬡ listpc 
- │ >
- │ =>
- │
- ╰ ───────⬣
+>   - 𖣂 Sc Private 𖤲 <特> 𖤲
+> ⭔ 名前   : ${pushname}
+> ⭔ タグ   : @${m.sender.split('@')[0]}
+> ⭔ 時間   : ${ucapanWaktu}
+> ⭔ Prefix  : ${prefix ? prefix : '✳ 𝐌𝐮𝐥𝐭𝐢 ༢'}
+> ⭔ Library   : 𝐖𝐬𝐁𝐚𝐢𝐥𝐞𝐲𝐬-𝐌𝐃.
+> ⭔ Status     : ${ryozingod.public ? '✱ 𝐏𝐮𝐛𝐥𝐢𝐜 ༣' : '✲ 𝐒𝐞𝐥𝐟 ༣'}
+> ⭔ Resp Speed : ${latensi.toFixed(4)}
+>
+> ╭ ──▸ \`Owner\`
+> │
+> │⬡ Addprem 62XX/TAG 30d
+> │⬡ Dellprem 62XX/TAG 30d
+> │⬡ self
+> │⬡ public
+> │⬡ shutdown
+> │⬡ addcase 
+> │⬡ delcase
+> │⬡ join [link group]
+> │⬡ block [nomor]
+> │⬡ unblock [nomor]
+> │⬡ listblock
+> │⬡ setppbot [reply gambar]
+> │⬡ setbiobot [teks]
+> │⬡ listpc 
+> │ >
+> │ =>
+> │
+> ╰ ───────⬣
  
- >❗ketik .useofbug untuk panduannya
- 
- ╭ ──▸ \`Ios Bug\`
- │
- │⬡ valamak [ Khusus ios]
- │⬡ vios [ Khusus ios]
- │⬡ vbugip [ Khusus ios]
- │⬡ viphone [ Khusus ios]
- │⬡ vbugios [ Khusus ios]
- │⬡ vcrashios [ Khusus ios]
- │⬡ ipkokcrash? [ Khusus ios]
- │⬡ katanyaip [ Khusus ios]
- │⬡ awok2ip [ Khusus ios]
- │⬡ ipbang? [ Khusus ios]
- │
- ╰ ───────⬣
+> ❗ketik .useofbug untuk panduannya
+> 
+> ╭ ──▸ \`Ios Bug\`
+> │
+> │⬡ valamak [ Khusus ios]
+> │⬡ vios [ Khusus ios]
+> │⬡ vbugip [ Khusus ios]
+> │⬡ viphone [ Khusus ios]
+> │⬡ vbugios [ Khusus ios]
+> │⬡ vcrashios [ Khusus ios]
+> │⬡ ipkokcrash? [ Khusus ios]
+> │⬡ katanyaip [ Khusus ios]
+> │⬡ awok2ip [ Khusus ios]
+> │⬡ ipbang? [ Khusus ios]
+> │
+> ╰ ───────⬣
 
- ╭ ──▸ \`Bug ( Op )\`
- │
- │⬡ mimir [ Infinite Crash ] 
- │⬡ infinitecrash [ Infinite Crash ]
- │⬡ 3hit [ Infinite Crash ]
- │⬡ msgbug2 [ Infinite Crash ]
- │⬡ santet [ Infinite Crash ]
- │⬡ seranganfajar [ Infinite Crash ]
- │⬡ infinitecrash [ Infinite Crash ]
- │⬡ 1hit [ Infinite Crash ]
- │⬡ 2hit [ Infinite Crash ]
- │⬡ 3hit [ Infinite Crash ]
- │⬡ penghitaman [ Infinite Crash ]
- │⬡ hitamkan [ Infinite Crash ]
- │⬡ zetsbug [ Infinite Crash ]
- │⬡ xgbug [ Infinite Crash ]
- │⬡ zetskil [ Infinite Crash ]
- │⬡ gengod7 [ Infinite Crash ]
- │⬡ crashkah? [ Infinite Crash ]
- │⬡ santet [ Infinite Crash ]
- │⬡ activecall [ call 1 hit ]
- │⬡ call1hit [ call 1 hit ]
- │⬡ startcall [ call 1 hit ]
- │⬡ newcall [ call 1 hit ]
- │⬡ skedulbotak [ call 1 hit ]
- │⬡ blowjobbug [ call 1 hit ]
- │⬡ bugcall [ call 1 hit ]
- │⬡ vcsbug [ End Call ]
- │⬡ videocallsexbug [ End Call ]
- │⬡ callend [ End Call ]
- │⬡ skedulend [ End Call ]
- │⬡ skedulpler [ End Call ]
- │⬡ sprite+insto [ End Call ]
- │⬡ tahutempe [ End Call ]
- │⬡ sumenga [ End Call ]
- │⬡ videocallgey [ End Call ]
- │⬡ bugmullet [ End Call ]
- │⬡ endcall [ End Call ]
- │⬡ zxvkill [ Txt Crash Home ]
- │⬡ zxvreadhome [ Txt Crash Home ] 
- │⬡ zxvbug [ Txt Crash Home ] 
- │⬡ zxv💀 [ Txt Crash Home ]
- │⬡ atomic [ Txt Crash Home ]
- │⬡ doti [ Txt Crash Home ]
- │⬡ meledak [ Txt Crash Home ]
- │⬡ crashbg? [ Txt Crash Home ]
- │⬡ crashkak? [ Txt Crash Home ]
- │⬡ crashin [ Txt Crash Home ]
- │⬡ plerku [ Txt Crash Home ]
- │⬡ aduhcrash [ Txt Crash Home ]
- │⬡ duarrr [ Txt Crash Home ]
- │⬡ bijimledak [ Txt Crash Home ]
- │⬡ sipilis [ Txt Crash Home ]
- │⬡ txtcrash [ Txt Crash Home ]
- │⬡ deathinvite [ Inv Crash Home ] 
- │⬡ porninvite [ Inv Crash Home ] 
- │⬡ undanganbug [ Inv Crash Home ] 
- │⬡ ngundangcrash [ Inv Crash Home ] 
- │⬡ fckh? [ Inv Crash Home ] 
- │⬡ bugtroli [ Troli Crash Home ]
- │⬡ trolibit [ Troli Crash Home ]
- │⬡ cartmap [ Troli Crash Home ]
- │⬡ bitmapbug [ Troli Crash Home ]
- │⬡ carrinho [ Troli Crash Home ]
- │⬡ crashbitmap [ Troli Crash Home ]
- │⬡ pixelcrash [ Troli Crash Home ]
- │⬡ locmess [ Loc Crash Home ]
- │⬡ serlok [ Loc Crash Home ]
- │⬡ buglocation [ Loc Crash Home ]
- │⬡ crashloc [ Loc Crash Home ]
- │⬡ locgp linkGroup 
- │⬡ buglocgc linkGroup
- │⬡ locgc linkGroup
- │⬡ gpcrash linkGroup
- │⬡ angjqy linkGroup
- │⬡ serlokgc linkGroup 
- │⬡ buggc linkGroup 
- │⬡ lag-gk? linkGroup 
- │⬡ kok-lagya linkGroup 
- │⬡ gp-bug linkGroup 
- │⬡ ngelag-woi linkGroup 
- │⬡ bugbokep linkGroup 
- │⬡ get-attention linkGroup 
- │⬡ hengsot linkGroup
- │⬡ hedsot idgc
- │⬡ mledak idgc
- │⬡ teluhvagina idgc
- │⬡ 1shoot idgc
- │⬡ 1kill idgc
- │⬡ akuruok idgc 
- │⬡ buginvite Jumlah 
- │⬡ bugprivchat Jumlah 
- │⬡ bugchat Jumlah 
- │⬡ aduhngelag🤣 Jumlah 
- │⬡ hpkudipirtex Jumlah 
- │⬡ bugchanel [ Invite Chanel ] 
- │⬡ newsbug [ Invite Chanel ] 
- │⬡ newsletterinvite [ Invite Chanel ] 
- │⬡ chanelinvite [ Invite Chanel ] 
- │⬡ newsinvite [ Invite Chanel ] 
- │
- ╰ ───────⬣
+> ╭ ──▸ \`Bug ( Op )\`
+> │
+> │⬡ mimir [ Infinite Crash ] 
+> │⬡ infinitecrash [ Infinite Crash ]
+> │⬡ 3hit [ Infinite Crash ]
+> │⬡ msgbug2 [ Infinite Crash ]
+> │⬡ santet [ Infinite Crash ]
+> │⬡ seranganfajar [ Infinite Crash ]
+> │⬡ infinitecrash [ Infinite Crash ]
+> │⬡ 1hit [ Infinite Crash ]
+> │⬡ 2hit [ Infinite Crash ]
+> │⬡ 3hit [ Infinite Crash ]
+> │⬡ penghitaman [ Infinite Crash ]
+> │⬡ hitamkan [ Infinite Crash ]
+> │⬡ zetsbug [ Infinite Crash ]
+> │⬡ xgbug [ Infinite Crash ]
+> │⬡ zetskil [ Infinite Crash ]
+> │⬡ gengod7 [ Infinite Crash ]
+> │⬡ crashkah? [ Infinite Crash ]
+> │⬡ santet [ Infinite Crash ]
+> │⬡ activecall [ call 1 hit ]
+> │⬡ call1hit [ call 1 hit ]
+> │⬡ startcall [ call 1 hit ]
+> │⬡ newcall [ call 1 hit ]
+> │⬡ skedulbotak [ call 1 hit ]
+> │⬡ blowjobbug [ call 1 hit ]
+> │⬡ bugcall [ call 1 hit ]
+> │⬡ vcsbug [ End Call ]
+> │⬡ videocallsexbug [ End Call ]
+> │⬡ callend [ End Call ]
+> │⬡ skedulend [ End Call ]
+> │⬡ skedulpler [ End Call ]
+> │⬡ sprite+insto [ End Call ]
+> │⬡ tahutempe [ End Call ]
+> │⬡ sumenga [ End Call ]
+> │⬡ videocallgey [ End Call ]
+> │⬡ bugmullet [ End Call ]
+> │⬡ endcall [ End Call ]
+> │⬡ zxvkill [ Txt Crash Home ]
+> │⬡ zxvreadhome [ Txt Crash Home ] 
+> │⬡ zxvbug [ Txt Crash Home ] 
+> │⬡ zxv💀 [ Txt Crash Home ]
+> │⬡ atomic [ Txt Crash Home ]
+> │⬡ doti [ Txt Crash Home ]
+> │⬡ meledak [ Txt Crash Home ]
+> │⬡ crashbg? [ Txt Crash Home ]
+> │⬡ crashkak? [ Txt Crash Home ]
+> │⬡ crashin [ Txt Crash Home ]
+> │⬡ plerku [ Txt Crash Home ]
+> │⬡ aduhcrash [ Txt Crash Home ]
+> │⬡ duarrr [ Txt Crash Home ]
+> │⬡ bijimledak [ Txt Crash Home ]
+> │⬡ sipilis [ Txt Crash Home ]
+> │⬡ txtcrash [ Txt Crash Home ]
+> │⬡ porninvite [ Inv Crash Home ] 
+> │⬡ undanganbug [ Inv Crash Home ] 
+> │⬡ ngundangcrash [ Inv Crash Home ] 
+> │⬡ fckh? [ Inv Crash Home ] 
+> │⬡ bugtroli [ Troli Crash Home ]
+> │⬡ trolibit [ Troli Crash Home ]
+> │⬡ cartmap [ Troli Crash Home ]
+> │⬡ bitmapbug [ Troli Crash Home ]
+> │⬡ carrinho [ Troli Crash Home ]
+> │⬡ crashbitmap [ Troli Crash Home ]
+> │⬡ pixelcrash [ Troli Crash Home ]
+> │⬡ locmess [ Loc Crash Home ]
+> │⬡ serlok [ Loc Crash Home ]
+> │⬡ buglocation [ Loc Crash Home ]
+> │⬡ crashloc [ Loc Crash Home ]
+> │⬡ locgp linkGroup 
+> │⬡ buglocgc linkGroup
+> │⬡ locgc linkGroup
+> │⬡ gpcrash linkGroup
+> │⬡ angjqy linkGroup
+> │⬡ serlokgc linkGroup 
+> │⬡ buggc linkGroup 
+> │⬡ drexcrashgc linkgroup
+> │⬡ lag-gk? linkGroup 
+> │⬡ kok-lagya linkGroup 
+> │⬡ gp-bug linkGroup 
+> │⬡ ngelag-woi linkGroup 
+> │⬡ bugbokep linkGroup 
+> │⬡ get-attention linkGroup 
+> │⬡ hengsot linkGroup
+> │⬡ hedsot idgc
+> │⬡ mledak idgc
+> │⬡ teluhvagina idgc
+> │⬡ 1shoot idgc
+> │⬡ 1kill idgc
+> │⬡ akuruok idgc 
+> │⬡ buginvite Jumlah 
+> │⬡ bugprivchat Jumlah 
+> │⬡ bugchat Jumlah 
+> │⬡ aduhngelag🤣 Jumlah 
+> │⬡ hpkudipirtex Jumlah 
+> │⬡ bugchanel [ Invite Chanel ] 
+> │⬡ newsbug [ Invite Chanel ] 
+> │⬡ newsletterinvite [ Invite Chanel ] 
+> │⬡ chanelinvite [ Invite Chanel ] 
+> │⬡ newsinvite [ Invite Chanel ] 
+> │
+> ╰ ───────⬣
  
- ╭ ──▸ Bug ( Bikin Virtex )
- │
- │⬡ jadivirdocdelay namalu
- │⬡ jadivirlocdelay namalu
- │⬡ jadiwebios namalu
- │⬡ jadifakecard namalu
- │
- ╰ ───────⬣
+> ╭ ──▸ Bug ( Bikin Virtex )
+> │
+> │⬡ jadivirdocdelay namalu
+> │⬡ jadivirlocdelay namalu
+> │⬡ jadiwebios namalu
+> │⬡ jadifakecard namalu
+> │
+> ╰ ───────⬣
+
+> ╭ ──▸ \`Thanks To\`
+> │
+> │⬡ 𝐃𝚺𝐕𝐈𝐋 𝐃𝐑𝚺𝐗
+> │⬡ ⟠ 𝐃𝐑𝚺𝐗 ⿻ 𝐂𝐋͢𝐢𝚵𝐍͢𝐓 々
+> │⬡ 𝐃𝚪𝚵𝚾 𝛁𝚰𝐒𝚰𝚯𝚴 𝚳𝐃
+> │⬡ still me😂
+> │
+> ╰ ───────⬣
+ 
     `
                 let hiks = {
       video: drexbugmenu, 
