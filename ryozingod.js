@@ -117,6 +117,24 @@ const quoted = (fatkuns.mtype == 'buttonsMessage') ? fatkuns[Object.keys(fatkuns
 const mime = (quoted.msg || quoted).mimetype || ''
 const qmsg = (quoted.msg || quoted)
 const isMedia = /image|video|sticker|audio/.test(mime)
+//store database
+const db_respon_list = JSON.parse(fs.readFileSync('./src/store/list.json'))
+
+const xeonverifieduser = JSON.parse(fs.readFileSync('./src/data/role/user.json'))
+
+global.db.data = JSON.parse(fs.readFileSync('./src/database.json'))
+if (global.db.data) global.db.data = {
+sticker: {},
+database: {}, 
+game: {},
+others: {},
+users: {},
+chats: {},
+settings: {},
+...(global.db.data || {})
+}
+
+let vote = db.data.others.vote = []
 //User
 var isAuthor = global.Contributor.replace(/[^0-9]/g, '').includes(m.sender.split("@")[0])
 const botNumber = await ryozingod.decodeJid(ryozingod.user.id)
