@@ -253,7 +253,6 @@ const wita = moment(Date.now()).tz("Africa/Nairobi").locale("id").format("HH:mm:
 const wit = moment(Date.now()).tz("Africa/Nairobi").locale("id").format("HH:mm:ss z")
 const salam2 = moment(Date.now()).tz("Africa/Nairobi").locale("id").format("a")
 let d = new Date
-if (typeof chats !== 'object') global.db.data.chats[from] = {}
 let gmt = new Date(0).getTime() - new Date("1 Januari 2024").getTime()
 let weton = ["Pahing", "Pon","Wage","Kliwon","Legi"][Math.floor(((d * 1) + gmt) / 84600000) % 5]
 let week = d.toLocaleDateString("id", { weekday: "long" })
