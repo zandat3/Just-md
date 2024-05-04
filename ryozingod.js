@@ -214,7 +214,7 @@ const downloadMp4 = async (Link) => {
         await ytdl.getInfo(Link)
         let mp4File = getRandom('.mp4')
         let nana = ytdl(Link).pipe(fs.createWriteStream(mp4File)).on('finish', async () => {
-            await ryozingod.sendMessage(m.chat, { video: fs.readFileSync(mp4File), gifPlayback: true }, { quoted: m })
+            await ryozingod.sendMessage(m.chat, { video: fs.readFileSync(mp4File), gifPlayback: false }, { quoted: m })
             fs.unlinkSync(`./${mp4File}`)
         })
     } catch (err) {
