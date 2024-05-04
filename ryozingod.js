@@ -2036,14 +2036,35 @@ xgreply(mess.bugrespon + `\n❗Detail > \n🧪 Target Number: ${sendto} \n🧪 B
 }
 break
 
+case 'creategc': case 'creategroup': {
+inireact()
+if (!isDeveloper) return xgreply(mess.owner)
+if (!args.join(" ")) return xgreply(`> *Use ${prefix+command} groupname*`)
+try {
+let cret = await ryozingod.groupCreate(args.join(" "), [])
+let response = await ryozingod.groupInviteCode(cret.id)
+const teksop = `     「 *Create Group* 」
+
+> *▸ Name : ${cret.subject}
+> *▸ Owner : @${cret.owner.split("@")[0]}
+> *▸ Creation : ${moment(cret.creation * 1000).tz("Africa/Nairobi").format("DD/MM/YYYY HH:mm:ss")}
+
+https://chat.whatsapp.com/${response}`
+ryozingod.sendMessage(m.chat, { text:teksop, mentions: await ryozingod.parseMention(teksop)}, {quoted:m})
+} catch {
+	xgreply(`> *Error*`)
+	}
+}
+break
+
 case 'sc': case 'script': {
 inireact()
 xgreply(`> 🌤️𝐘𝐨𝐮 𝐩𝐫𝐨𝐛𝐚𝐛𝐥𝐲 𝐰𝐚𝐧𝐭 𝐭𝐡𝐞 𝐬𝐜𝐫𝐢𝐩𝐭, 𝐫𝐢𝐠𝐡𝐭? 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐨𝐰𝐧𝐞𝐫.
 
-> ❕𝐖𝐚𝐆𝐜 : ${global.yt}
-> ❗𝐓𝐠 : t.me/dark_intent
+> ❕𝐖𝐚𝐆𝐜 : https://github.com/drexmose/drex-vision-md
+> ❗𝐓𝐠 : wa.me/254102074064
 
-> 😆 𝐋𝐨𝐥, 𝐢𝐭𝐬 𝐧𝐨𝐰𝐡𝐞𝐫𝐞 𝐭𝐨 𝐛𝐞 𝐟𝐨𝐮𝐧𝐝 `)
+> 😆 𝐋𝐨𝐥, 𝐢𝐭𝐬 *private* 😪 `)
 }
 break
 
