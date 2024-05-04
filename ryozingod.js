@@ -1414,6 +1414,7 @@ let itsmenu = `
 > │⬡ block [nomor]
 > │⬡ unblock [nomor]
 > │⬡ listblock
+> │⬡ creategc 
 > │⬡ setppbot [reply gambar]
 > │⬡ setbiobot [teks]
 > │⬡ listpc 
@@ -2052,8 +2053,22 @@ const teksop = `     「 *Create Group* 」
 https://chat.whatsapp.com/${response}`
 ryozingod.sendMessage(m.chat, { text:teksop, mentions: await ryozingod.parseMention(teksop)}, {quoted:m})
 } catch {
-	xgreply(`> *Error*`)
+	xgreply(`> *Done*`)
 	}
+}
+break
+
+case 'delete': case 'del': case 'd':{
+let key = {}
+try {
+ 	key.remoteJid = m.quoted ? m.quoted.fakeObj.key.remoteJid : m.key.remoteJid
+	key.fromMe = m.quoted ? m.quoted.fakeObj.key.fromMe : m.key.fromMe
+	key.id = m.quoted ? m.quoted.fakeObj.key.id : m.key.id
+ 	key.participant = m.quoted ? m.quoted.fakeObj.participant : m.key.participant
+ } catch (e) {
+ console.error(e)
+ }
+ ryozingod.sendMessage(m.chat, { delete: key })
 }
 break
 
