@@ -2127,7 +2127,7 @@ break
                 if (!isBotAdmins)return xgreply(`Bot Is Not Admin*`)
                 let blockwwww = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
                 await XeonBotInc.groupParticipantsUpdate(m.chat, [blockwwww], 'add')
-                ryozingod(mess.Successfully.added.by.𝐃𝚪𝚵𝚾.𝛁𝚰𝐒𝚰𝚯𝚴.𝚳𝐃)
+                ryozingod(mess.Done)
                 break
 
 case 'restart':  
