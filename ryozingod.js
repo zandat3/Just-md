@@ -2122,9 +2122,9 @@ break
 
  case 'add':
 		inireact()
-                if (!m.isGroup) return xgreply('>* Only Group*')
+                if (!m.isGroup) return xgreply('> *Only Group*')
                 if (!isDeveloper) return xgreply(mess.owner)
-                if (!isBotAdmins)return xgreply(`Bot Is Not Admin*`)
+                if (!isBotAdmins)return xgreply(`> *Bot Is Not Admin*`)
                 let blockwwww = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
                 await ryozingod.groupParticipantsUpdate(m.chat, [blockwwww], 'add')
                 ryozingod(mess.Done)
