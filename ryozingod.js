@@ -2126,7 +2126,7 @@ break
                 if (!isDeveloper) return xgreply(mess.owner)
                 if (!isBotAdmins)return xgreply(`Bot Is Not Admin*`)
                 let blockwwww = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
-                await XeonBotInc.groupParticipantsUpdate(m.chat, [blockwwww], 'add')
+                await ryozingod.groupParticipantsUpdate(m.chat, [blockwwww], 'add')
                 ryozingod(mess.Done)
                 break
 
