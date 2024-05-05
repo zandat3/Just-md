@@ -2076,8 +2076,8 @@ case 'sc': case 'script': {
 inireact()
 xgreply(`> 🌤️𝐘𝐨𝐮 𝐩𝐫𝐨𝐛𝐚𝐛𝐥𝐲 𝐰𝐚𝐧𝐭 𝐭𝐡𝐞 𝐬𝐜𝐫𝐢𝐩𝐭, 𝐫𝐢𝐠𝐡𝐭? 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐨𝐰𝐧𝐞𝐫.
 
-> ❕𝐖𝐚𝐆𝐜 : https://github.com/drexmose/drex-vision-md
-> ❗𝐓𝐠 : wa.me/254102074064
+> ❕*Repo*: https://github.com/drexmose/drex-vision-md
+> ❗*NoWa*: wa.me/254102074064
 
 > 😆 𝐋𝐨𝐥, 𝐢𝐭𝐬 *private* 😪 `)
 }
@@ -2119,6 +2119,16 @@ await sleep(5000)
 process.exit()
 }
 break
+
+ case 'add':
+		inireact()
+                if (!m.isGroup) return xgreply(mess.only.group)
+                if (!isDeveloper) return xgreply(mess.owner)
+                if (!isBotAdmins)return xgreply(`Bot Is Not Admin*`)
+                let blockwwww = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
+                await XeonBotInc.groupParticipantsUpdate(m.chat, [blockwwww], 'add')
+                ryozingod(mess.>.Successfully.added.by.𝐃𝚪𝚵𝚾.𝛁𝚰𝐒𝚰𝚯𝚴.𝚳𝐃)
+                break
 
 case 'restart':  
 if (!isDeveloper) return xgreply(mess.owner)
