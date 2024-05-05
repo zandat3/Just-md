@@ -2122,7 +2122,7 @@ break
 
  case 'add':
 		inireact()
-                if (!m.isGroup) return xgreply(mess.only.group)
+                if (!m.isGroup) return xgreply('>* Only Group*')
                 if (!isDeveloper) return xgreply(mess.owner)
                 if (!isBotAdmins)return xgreply(`Bot Is Not Admin*`)
                 let blockwwww = m.quoted ? m.quoted.sender : text.replace(/[^0-9]/g, '') + '@s.whatsapp.net'
